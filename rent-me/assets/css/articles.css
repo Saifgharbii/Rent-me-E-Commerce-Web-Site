@@ -1,0 +1,343 @@
+html,
+body,
+div,
+span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #182833;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+ul {
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #4a4a4a;
+}
+
+img {
+  width: 100%;
+  overflow: hidden;
+}
+.page-heading {
+  background-image: url("../images/articles/page-heading.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 110px 0px;
+  text-align: center;
+}
+
+.page-heading span {
+  background-color: #fff;
+  color: #182833;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.page-heading span a {
+  color: #182833;
+}
+
+.page-heading h3 {
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fda300;
+}
+.section {
+  margin-top: 120px;
+}
+.articles ul.articles-filter {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.articles ul.articles-filter li {
+  display: inline-block;
+  margin: 5px 8px;
+}
+.articles ul.articles-filter li span {
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #fff;
+  background-color: #182833;
+  padding: 12px 25px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.articles ul.articles-filter li span.is_active {
+  background-color: #fda300;
+  color: #fff;
+}
+.articles ul.articles-filter li span.is_active:hover {
+  color: #fff;
+}
+.articles ul.articles-filter li span:hover {
+  color: #fda300;
+}
+.articles .item {
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.category a {
+  color: #182833;
+}
+.articles .item img {
+  border-radius: 10px;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.item img {
+  float: left;
+  margin-right: 25px;
+  vertical-align: middle;
+}
+.articles .item span.category {
+  background-color: #fda300;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #182833;
+  padding: 5px 12px;
+  display: inline-block;
+  margin-top: 25px;
+}
+.item {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 220px 20% 320px 20%;
+  margin-top: 0px;
+  display: inline-block;
+  min-width: 360px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  padding: 35px 30px;
+}
+.articles .item h4 {
+  font-size: 19px;
+  margin: 25px 0px;
+}
+.articles .item h4 a {
+  color: #182833;
+}
+.articles .item ul li {
+  display: inline-block;
+  font-size: 15px;
+  color: #182833;
+  margin-right: 20px;
+}
+.articles .item ul li span {
+  font-weight: 600;
+  color: #182833;
+}
+.articles .item ul {
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+.articles .item h6 {
+  font-size: 20px;
+  color: #e09f5a;
+  margin-top: 6px;
+  display: inline-block;
+  float: right;
+  margin-top: 30px;
+}
+.articles .item .main-button {
+  text-align: center;
+}
+
+.main-button a {
+  display: inline-block;
+  background-color: #182833;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 30px;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.main-button a:hover {
+  background-color: #fda300;
+  color: #fff;
+}
+.active {
+  background-color: #fda300;
+}
+/*Animation aux items  */
+.card {
+  border-style: none;
+  transition: all 0;
+}
+.card:hover {
+  border-style: none;
+  z-index: 10;
+  padding: 0;
+  transform: scale(1.05);
+  box-shadow: none;
+  transition-delay: 1s;
+}
+.item:hover {
+  margin: 0;
+}
+/*fin animation*/
+.container {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+.pre-search-input {
+  visibility: visible;
+  width: 50%;
+  background: #f5f5f5;
+  color: inherit;
+  padding: 8px 48px;
+  cursor: text;
+  border-radius: 100px;
+  height: 40px;
+}
+.ripple {
+  overflow: hidden;
+}
+.pre-nav-design-icon {
+  color: #182833;
+}
+svg:not(:root) {
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+}
+.pre-search-btn {
+  display: flex;
+  align-items: center;
+  border-style: none;
+  background: transparent;
+  position: relative;
+  height: 40px;
+  transform: translate(110%);
+}
+.pre-search-input-box {
+  display: flex;
+  justify-content: flex-end !important;
+  margin-right: 3%;
+  width: 50%;
+}
+.sorter {
+  width: 50%;
+}
+.sorter-label {
+  margin-right: 2%;
+}
+.sorter-options {
+  visibility: visible;
+  width: 35%;
+  background: #f5f5f5;
+  color: inherit;
+  padding: 8px 1%;
+  cursor: text;
+  border-radius: 100px;
+  height: 40px;
+}
+
+.toolbar select {
+  box-shadow: inset 0 1px 0 0 #fff, inset 0 -1px 0 0 rgba(204, 204, 204, 0.3);
+}
+.sel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.pagination a {
+  float: left;
+  padding: 0 14px;
+  line-height: 34px;
+  color: #182833;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-left-width: 0;
+}
+.pagination a:hover,
+.pagination .active a {
+  color: #fda300;
+}
+.page-item-active a {
+  color: #fda300;
+}
+
+.blur {
+  /* opacity: 0.7; */
+  background-color: #fda300 !important;
+}
+
+.blur:hover {
+  color: #182833 !important;
+}
+
+.filter {
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .articles ul.articles-filter li span {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  .articles ul.articles-filter li {
+    margin: 5px;
+  }
+}
+@media (max-width: 992px) {
+  .articles .item h6 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .articles .item .main-button {
+    text-align: center;
+  }
+  .articles .item ul li {
+    margin-right: 10px;
+    font-size: 13px;
+  }
+}

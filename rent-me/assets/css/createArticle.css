@@ -1,0 +1,19 @@
+.white-bg {
+  background-color: white;
+  max-width: 75%;
+  border-radius: 1vw;
+}
+
+/* .title-form-group {
+  display: flex;
+  flex-direction: row;
+} */
+@media (max-width: 760px) {
+  /* .title-form-group {
+    flex-direction: column;
+    background-color: rgb(156, 18, 68);
+  } */
+  .h1 {
+    color: chartreuse;
+  }
+}

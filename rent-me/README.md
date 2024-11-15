@@ -1,0 +1,3 @@
+# Rent Me
+
+Rent Me is a PHP-based web application designed to streamline the process of renting articles between individuals. Whether you're looking to rent out your belongings or in need of renting something, Rent Me provides a user-friendly platform to connect both parties efficiently. With features such as user authentication, article listings with detailed descriptions and images, a robust search functionality, and more ... Rent Me offers a comprehensive solution for facilitating hassle-free rentals. Powered by PHP, MySQL, HTML, CSS, JavaScript, Rent Me aims to simplify the rental process while providing a secure and convenient experience for users.

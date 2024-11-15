@@ -1,0 +1,158 @@
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #182833;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffc619 !important;
+}
+.navbar-logo:active {
+  color: #ffc619 !important;
+}
+.navbar-logo:hover {
+  color: #ffc619dd !important;
+}
+
+.navbar-nav .nav-link,
+.dropdown-menu a {
+  color: #e09f5a !important;
+}
+.navbar-button {
+  color: white;
+  background-image: linear-gradient(#fda300, #e09f5a);
+  border-color: transparent;
+}
+.navbar-button:hover {
+  color: #ffc619;
+}
+.navbar-button:active {
+  color: #ffc619;
+}
+
+.dropdown-menu {
+  background-color: #343a40;
+}
+
+.dropdown-menu a {
+  color: #e09f5a;
+}
+.nav-link:active {
+  color: #fda300;
+}
+#navbarDropdown {
+  color: #e09f5a;
+}
+#navbarDropdown:active {
+  color: #fda300;
+}
+#navbarDropdown:hover {
+  color: #ffc619;
+}
+.nav-link:hover {
+  color: #ffc619;
+}
+footer {
+  background-color: #182833 !important;
+  color: #e09f5a;
+  text-align: center;
+  display:flex;
+  margin-top: 100px;
+}
+
+footer button {
+  color: white;
+  background-image: linear-gradient(#fda300, #e09f5a);
+  border-color: transparent;
+}
+
+footer button:hover {
+  color: #ffc619;
+}
+
+footer button:active {
+  color: #ffc619;
+}
+#mySidenav {
+  background-color: #182833;
+  z-index: 500;
+}
+.primary-footer-link {
+  color: #ffc619;
+}
+
+.secondary-footer-link {
+  color: #e09f5a;
+}
+.social-media-button{
+    padding: 20px;
+}
+.contact-section {
+    margin-top: 100px; 
+}
+.footer {
+  background-color: #182833 !important;
+  padding: 20px 0;
+}
+
+.footer-nav {
+  margin-bottom: 20px;
+}
+
+.footer-nav a {
+  color: #ffc619;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.footer-nav a:hover {
+  color: #212529;
+}
+
+.footer .social-icons i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #6c757d;
+}
+
+.footer .social-icons i:hover {
+  color: #ffc619;
+}
